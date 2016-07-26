@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="DefaultConnection-Web.config Connection String" description="DefaultConnection Connection String used in web.config by the application to access the database." defaultValue="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-LeapFinal-20160726113003.mdf;Initial Catalog=aspnet-LeapFinal-20160726113003;Integrated Security=True" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\prgoya\\Documents\\Visual\ Studio\ 2015\\Projects\\Basic\\LeapFinal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="LeapNullEntities-Web.config Connection String" description="LeapNullEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/LeapModel.csdl|res://*/LeapModel.ssdl|res://*/LeapModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=leap-null.database.windows.net;initial catalog=LeapNull;persist security info=True;user id=leap;password=M1cr0$of#;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\prgoya\\Documents\\Visual\ Studio\ 2015\\Projects\\Basic\\LeapFinal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LeapNullEntities']/@connectionString" />
+  </parameter>
+  <parameter name="LeapFinalContext-Web.config Connection String" description="LeapFinalContext Connection String used in web.config by the application to access the database." defaultValue="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=LeapFinalContext-20160726114623; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|LeapFinalContext-20160726114623.mdf" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\prgoya\\Documents\\Visual\ Studio\ 2015\\Projects\\Basic\\LeapFinal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LeapFinalContext']/@connectionString" />
+  </parameter>
+</parameters>

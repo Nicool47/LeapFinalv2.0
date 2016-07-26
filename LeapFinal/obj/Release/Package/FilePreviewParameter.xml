@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="LeapFinal" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^c:\\users\\prgoya\\documents\\visual\ studio\ 2015\\Projects\\Basic\\ADO\\LeapFinal\\LeapFinal\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^c:\\users\\prgoya\\documents\\visual\ studio\ 2015\\Projects\\Basic\\ADO\\LeapFinal\\LeapFinal\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="DefaultConnection-Web.config Connection String" description="" value="Data Source=(LocalDb)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\aspnet-LeapFinal-20160726113003.mdf;Initial Catalog=aspnet-LeapFinal-20160726113003;Integrated Security=True" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\prgoya\\documents\\visual\ studio\ 2015\\Projects\\Basic\\ADO\\LeapFinal\\LeapFinal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='DefaultConnection']/@connectionString" />
+  </parameter>
+  <parameter name="LeapFinalContext-Web.config Connection String" description="" value="Data Source=(localdb)\MSSQLLocalDB; Initial Catalog=LeapFinalContext-20160726114623; Integrated Security=True; MultipleActiveResultSets=True; AttachDbFilename=|DataDirectory|LeapFinalContext-20160726114623.mdf" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\prgoya\\documents\\visual\ studio\ 2015\\Projects\\Basic\\ADO\\LeapFinal\\LeapFinal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LeapFinalContext']/@connectionString" />
+  </parameter>
+  <parameter name="LeapNullEntities-Web.config Connection String" description="" value="metadata=res://*/LeapModel.csdl|res://*/LeapModel.ssdl|res://*/LeapModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=leap-null.database.windows.net;initial catalog=LeapNull;persist security info=True;user id=leap;password=M1cr0$of#;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="">
+    <parameterEntry kind="XmlFile" scope="c:\\users\\prgoya\\documents\\visual\ studio\ 2015\\Projects\\Basic\\ADO\\LeapFinal\\LeapFinal\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='LeapNullEntities']/@connectionString" />
+  </parameter>
+</parameters>
